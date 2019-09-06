@@ -1,0 +1,346 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Setting up the driver",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8216053106,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set up the driver and open chrome",
+            "match": {
+              "location": "StepDef.i_set_up_the_driver_and_open_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verifying the Gmail",
+        "description": "",
+        "id": "verifying-the-functionality-of-the-web-sites;verifying-the-gmail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2143447537,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I launch the gmail",
+            "match": {
+              "location": "StepDef.i_launch_the_gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2031445698,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I  enter the testuser275275 and TESTuser275275",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser275275",
+                  "offset": 13
+                },
+                {
+                  "val": "TESTuser275275",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef.i_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173948093,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDef.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10526630106,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate gmail inbox page for testuser275275",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser275275",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef.i_validate_gmail_inbox_page_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38962554,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I check the number of mail in the inbox",
+            "match": {
+              "location": "StepDef.i_check_the_number_of_mail_in_the_inbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127148454,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the first mail",
+            "match": {
+              "location": "StepDef.i_click_on_the_first_mail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Gmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Setting up the driver",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5139295422,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set up the driver and open chrome",
+            "match": {
+              "location": "StepDef.i_set_up_the_driver_and_open_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying the Gmail",
+        "description": "",
+        "id": "verifying-the-functionality-of-the-web-sites;verifying-the-gmail;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2818272592,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I launch the gmail",
+            "match": {
+              "location": "StepDef.i_launch_the_gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1956618766,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I  enter the 275275testuser and TESTuser275275",
+            "match": {
+              "arguments": [
+                {
+                  "val": "275275testuser",
+                  "offset": 13
+                },
+                {
+                  "val": "TESTuser275275",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef.i_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133343929,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDef.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10166628594,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate gmail inbox page for 275275testuser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "275275testuser",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef.i_validate_gmail_inbox_page_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17933655,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I check the number of mail in the inbox",
+            "match": {
+              "location": "StepDef.i_check_the_number_of_mail_in_the_inbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135718075,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the first mail",
+            "match": {
+              "location": "StepDef.i_click_on_the_first_mail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Gmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Setting up the driver",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5034914250,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set up the driver and open chrome",
+            "match": {
+              "location": "StepDef.i_set_up_the_driver_and_open_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verifying the Hris",
+        "description": "",
+        "id": "verifying-the-functionality-of-the-web-sites;verifying-the-hris",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4889308985,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I launch the hris",
+            "match": {
+              "location": "StepDef.i_launch_the_hris()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5500903061,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I  enter credentials to login",
+            "match": {
+              "location": "StepDef.i_enter_credentials_to_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "harishahi",
+                  "Hari@101$#"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Hris"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the functionality of the web sites",
+    "description": "",
+    "id": "verifying-the-functionality-of-the-web-sites",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/gmail.feature"
+  }
+]
